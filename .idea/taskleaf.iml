@@ -78,6 +78,7 @@
     <orderEntry type="library" scope="PROVIDED" name="rails (v5.2.4.4, rbenv: 2.5.7) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rails-dom-testing (v2.0.3, rbenv: 2.5.7) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rails-html-sanitizer (v1.3.0, rbenv: 2.5.7) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rails_autolink (v1.1.6, rbenv: 2.5.7) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="railties (v5.2.4.4, rbenv: 2.5.7) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rake (v13.0.3, rbenv: 2.5.7) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rb-fsevent (v0.10.4, rbenv: 2.5.7) [gem]" level="application" />

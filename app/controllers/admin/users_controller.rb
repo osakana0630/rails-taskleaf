@@ -1,5 +1,6 @@
 #Adminモジュールの名前空間の中にUsersControllerというクラスを定義するという意味になる
 class Admin::UsersController < ApplicationController
+  before_action :required_admin
 
   def index
     @users = User.all
@@ -47,5 +48,9 @@ class Admin::UsersController < ApplicationController
 
   def user_params
     params.require(:user).permit(:name, :email, :admin, :password, :password_confirmation)
+  end
+
+  def required_admin
+    redirect_to root_path unless current_user.admin?
   end
 end

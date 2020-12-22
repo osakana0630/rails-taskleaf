@@ -2,8 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2162da76-9256-4cb6-8eca-05c93e9e4ae5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/views/admin/users/_form.html.slim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/tasks/_form.html.slim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/taskleaf.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/taskleaf.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/admin/users_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/admin/users_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/tasks_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/tasks_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/task.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/task.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/users/index.html.slim" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin/users/index.html.slim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.slim" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.slim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tasks/_form.html.slim" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tasks/_form.html.slim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tasks/show.html.slim" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tasks/show.html.slim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +161,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608559801793</updated>
-      <workItem from="1608559805590" duration="13228000" />
+      <workItem from="1608559805590" duration="13515000" />
+      <workItem from="1608646545689" duration="5956000" />
     </task>
     <servers />
   </component>
@@ -156,10 +170,16 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup" timestamp="1608573901582">
+    <state x="624" y="305" key="#Illuminated_Cloud" timestamp="1608646569408">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state x="624" y="305" key="#Illuminated_Cloud/0.0.2048.1280@0.0.2048.1280" timestamp="1608646569408" />
+    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup" timestamp="1608653368198">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup/-1920.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1608573901582" />
+    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup/-1920.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1608653368198" />
     <state x="561" y="251" width="670" height="676" key="search.everywhere.popup/-1920.23.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1608561029729" />
+    <state x="641" y="287" width="766" height="773" key="search.everywhere.popup/0.0.2048.1280@0.0.2048.1280" timestamp="1608652423546" />
+    <state x="641" y="287" width="766" height="773" key="search.everywhere.popup/0.23.2048.1257@0.23.2048.1257" timestamp="1608650692778" />
   </component>
 </project>
