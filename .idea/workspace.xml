@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2162da76-9256-4cb6-8eca-05c93e9e4ae5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/mailers/task_mailer.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/task_mailer/creation_email.html.slim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/task_mailer/creation_email.text.slim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/mailers/previews/task_mailer_preview.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/mailers/task_mailer_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/taskleaf.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/taskleaf.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/tasks_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/tasks_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/environments/development.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/development.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/environments/production.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/production.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/task.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/task.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tasks/_form.html.slim" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tasks/_form.html.slim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tasks/new.html.slim" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tasks/new.html.slim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/locales/ja.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/locales/ja.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
