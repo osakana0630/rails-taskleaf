@@ -17,6 +17,7 @@ class TasksController < ApplicationController
     end
 
     if (@task.save)
+      TaskMailer.creation_email(@task).deliver_now
       #指定しないとデフォルトで対応するviewをrenderする
       redirect_to @task, notice: "タスク「#{@task.name}」を登録しました。"
     else
