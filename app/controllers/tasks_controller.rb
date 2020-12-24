@@ -18,6 +18,8 @@ class TasksController < ApplicationController
 
     if (@task.save)
       TaskMailer.creation_email(@task).deliver_now
+      # perform_laterというメソッドを使用し、sample_job.rbに定義したログ出力のジョブを非同期に実行
+      SampleJob.perform_later
       #指定しないとデフォルトで対応するviewをrenderする
       redirect_to @task, notice: "タスク「#{@task.name}」を登録しました。"
     else

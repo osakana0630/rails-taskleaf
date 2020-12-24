@@ -5,20 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2162da76-9256-4cb6-8eca-05c93e9e4ae5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/views/kaminari/_first_page.html.slim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/kaminari/_gap.html.slim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/kaminari/_last_page.html.slim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/kaminari/_next_page.html.slim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/kaminari/_page.html.slim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/kaminari/_paginator.html.slim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/kaminari/_prev_page.html.slim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/locales/kaminari.ja.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/jobs/sample_job.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dump.rdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/jobs/sample_job_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.generators" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.rakeTasks" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/taskleaf.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/taskleaf.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/tasks_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/tasks_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/tasks/index.html.slim" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tasks/index.html.slim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/environments/development.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/development.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,6 +170,7 @@
       <updated>1608559801793</updated>
       <workItem from="1608559805590" duration="13515000" />
       <workItem from="1608646545689" duration="8088000" />
+      <workItem from="1608819114728" duration="887000" />
     </task>
     <servers />
   </component>

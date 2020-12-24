@@ -69,5 +69,7 @@ gem "bcrypt", "~>3.1.7"
 
 gem "rails_autolink"
 
+
+gem 'sidekiq', '~> 5.0'
 gem "ransack"
 gem "kaminari"
