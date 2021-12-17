@@ -1,0 +1,10 @@
+require 'rails_helper'
+
+RSpec.describe User, type: :model do
+  it '名前、メール、パスワードが存在すれば有効な状態になること' do
+    user = FactoryBot.new(:user)
+    user.valid?
+    expect(user).to be_valid
+
+  end
+end
