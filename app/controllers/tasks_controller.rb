@@ -2,8 +2,8 @@ class TasksController < ApplicationController
   before_action :set_task, only: [:show, :edit, :update, :destroy ]
 
   def index
-    @q = current_user.tasks.ransack(params[:q])
-    @tasks = @q.result(distinct: true).page(params[:page]).per(20)
+    @query = current_user.tasks.ransack(params[:q])
+    @tasks = @query.result(distinct: true).page(params[:page]).per(20)
   end
 
   def create
@@ -16,7 +16,7 @@ class TasksController < ApplicationController
       return
     end
 
-    if (@task.save)
+    if @task.save
       TaskMailer.creation_email(@task).deliver_now
       # perform_laterというメソッドを使用し、sample_job.rbに定義したログ出力のジョブを非同期に実行
       SampleJob.perform_later
